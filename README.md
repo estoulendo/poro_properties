@@ -22,31 +22,37 @@ Or install it yourself as:
 
 You must require 'poro_properties' and then include it on your class:
 
-    require 'poro_properties'
+```ruby
+require 'poro_properties'
 
-    class MyClass
-      include PoroProperties
+class MyClass
+  include PoroProperties
 
-      properties :foo, :bar
-      property :baz
-    end
+  properties :foo, :bar
+  property :baz
+end
+```
 
 When you include PoroProperties, the following methods are available on your
 class:
 
-    MyClass.properties_names
-    MyClass.new.to_h
+```ruby
+MyClass.properties_names
+MyClass.new.to_h
+```
 
 You can also pass default values:
 
-    require 'poro_properties/defaults'
+```ruby
+require 'poro_properties/defaults'
 
-    class MyClass
-      include PoroProperties
-      include PoroProperties::Defaults
+class MyClass
+  include PoroProperties
+  include PoroProperties::Defaults
 
-      property :foo, default: 'bar'
-    end
+  property :foo, default: 'bar'
+end
+```
 
 ## Development
 
