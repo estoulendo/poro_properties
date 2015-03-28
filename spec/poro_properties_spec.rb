@@ -23,6 +23,13 @@ describe PoroProperties do
     end
   end
 
+  describe '.properties_names' do
+    it 'returns all defined properties' do
+      subject.properties(:foo, :bar)
+      expect(subject.properties_names).to eql(%i(foo bar))
+    end
+  end
+
   describe '#to_h' do
     let(:instance) { subject.new }
 
