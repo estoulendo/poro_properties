@@ -1,4 +1,5 @@
 # PoroProperties
+[![Build Status][ci-image]][ci]
 
 Allows you to define properties on your Ruby classes.
 
@@ -71,3 +72,6 @@ and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+[ci-image]:https://travis-ci.org/estoulendo/poro_properties.svg?branch=master
+[ci]:https://travis-ci.org/estoulendo/poro_properties
