@@ -1,5 +1,6 @@
 # PoroProperties
 [![Build Status][ci-image]][ci]
+[![Code Climate][cc-image]][cc]
 
 Allows you to define properties on your Ruby classes.
 
@@ -75,3 +76,5 @@ and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 [ci-image]:https://travis-ci.org/estoulendo/poro_properties.svg?branch=master
 [ci]:https://travis-ci.org/estoulendo/poro_properties
+[cc-image]:https://codeclimate.com/github/estoulendo/poro_properties/badges/gpa.svg
+[cc]:https://codeclimate.com/github/estoulendo/poro_properties
