@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Lenon Marcel']
   spec.email         = ['lenon.marcel@gmail.com']
 
-  spec.summary       = 'Allows you to define attributes on Ruby classes.'
-  spec.description   = 'Allows you to define attributes on Ruby classes.'
+  spec.summary       = 'Allows you to define properties on Ruby classes.'
+  spec.description   = 'Allows you to define properties on Ruby classes.'
   spec.homepage      = 'https://github.com/estoulendo/poro_properties'
   spec.license       = 'MIT'
 
