@@ -1,4 +1,5 @@
 require 'poro_properties/version'
+require 'poro_properties/defaults'
 
 module PoroProperties
   def self.included(base)

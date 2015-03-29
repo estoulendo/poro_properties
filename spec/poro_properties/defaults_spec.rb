@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'poro_properties/defaults'
 
 describe PoroProperties::Defaults do
   subject do
